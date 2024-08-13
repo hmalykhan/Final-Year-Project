@@ -8,6 +8,7 @@ Utilized deep learning techniques to successfully complete the project.
 
 # File Structure
 fynal_year_Project/
+├── documents/
 ├── embeddings/
 │   └── ref_embd.json  # System will store the embeddings of the reference videos frames.
 ├── frames/            # System will store the extracted frames of the reference videos, These frames will be used for Vision Transformers training and further processing.
