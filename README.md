@@ -8,7 +8,11 @@ Utilized deep learning techniques to successfully complete the project.
 
 # File Structure
 fynal_year_Project/
-├── documents/
+├── documents/         # System related documents are stored.
+├── trianed_model/     # System will create this directory after training the model.
+├── results/           # System will save the results of the trained model.
+├── other_videos/      # File containing auxiliary functions.
+├── flagged/           # Flagged stamps will be saved.  
 ├── embeddings/
 │   └── ref_embd.json  # System will store the embeddings of the reference videos frames.
 ├── frames/            # System will store the extracted frames of the reference videos, These frames will be used for Vision Transformers training and further processing.
